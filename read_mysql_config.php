@@ -1,6 +1,6 @@
 #!/bin/env php
 <?php
-$mysqlConfigPath = $_SERVER['HOME']. "/iron/vendor/zan-config/iron/files/mysql.php";
+$mysqlConfigPath = $_SERVER['HOME']. "/mysql.php";
 
 $action = $_SERVER['argv'][1];
 switch ($action) {
